@@ -48,11 +48,6 @@ def reorder_values(values, before_rules):
   return collected_values
 
 
-
-
-
-
-
 def valid_values(values, before_rules):
   disallowed_values = set()
   for index, value in enumerate(values):
